@@ -8,7 +8,7 @@ export default function Home() {
 
 
       <div className="techBox flex gap-5 ">
-        <div className="w-80 h-40 flex items-center justify-center flex-col gap-5 bg-[#b6b5b5] rounded-md hover:shadow-2xl">
+        <div className="w-80 h-40 flex items-center justify-center flex-col gap-5 bg-[#b6b5b5] rounded-md hover:shadow-2xl shadow-white">
           <p className="text-lg font-semibold">JavaScript Mülakat Soruları</p>
         </div>
         <div className="w-80 h-40 flex items-center justify-center flex-col gap-5 bg-[#b6b5b5] rounded-md">
