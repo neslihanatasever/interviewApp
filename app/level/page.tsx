@@ -4,8 +4,6 @@ export default function LevelsPage() {
             <div>
                 <p>Mülakata girmek istediğiniz seviyeyi seçin</p>
             </div>
-
-            
         </main>
     )
 }

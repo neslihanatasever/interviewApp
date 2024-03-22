@@ -8,7 +8,6 @@ export default function Home() {
         <p className="text-2xl text-[#C06014]">Kendinizi test etmenin tam zamanı!</p>
       </div>
 
-
       <div className="techBox flex gap-5 ">
         <Link className="w-80 h-40 flex items-center justify-center flex-col gap-5 bg-[#b6b5b5] rounded-md shadow-xl shadow-[#000] hover:shadow-[#C06014]" href={"/level"}>
           <p className="text-lg font-semibold">JavaScript Mülakat Soruları</p>  
