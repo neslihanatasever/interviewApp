@@ -19,9 +19,10 @@ const config: Config = {
       darkGreyIA: '#424642',
       greenIA: '#719192',
       bgIA: '#F6F6F6',
-      bgSecondIA: 'EAE9E9',
+      bgSecondIA: '#EAE9E9',
       fredIA: '#CD3F3E',
-      tgreen: '8AAE92',
+      tgreen: '#8AAE92',
+      zinc: '#d4d4d8',
     }
   },
   plugins: [],
