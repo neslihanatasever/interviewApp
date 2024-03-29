@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import SendQuestion from "./components/sendQuestion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>{children}</body>
+      <body suppressHydrationWarning={true}>
+        <SendQuestion url="çünkü lütfen" text="nolur bize soru gönder"/>
+        {children}</body>
     </html>
   );
 }
