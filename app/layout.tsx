@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import SendQuestion from "./components/sendQuestion";
 import Header from "./components/header";
+import QuestionsBox from "./components/questionBox";
 
 const inter = Inter({ subsets: ["latin"] });
 
