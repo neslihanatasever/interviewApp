@@ -22,7 +22,6 @@ export default function QuestionsPage() {
                     <span className="transition-all ease-out hover:-translate-y-1">Deneme Testi</span>
                 </Link>
                 </div>
-
                 {question && <QuestionsBox />}
             </div>
         </div>
