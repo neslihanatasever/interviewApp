@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import SendQuestion from "./components/sendQuestion";
+import Header from "./components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <SendQuestion url="çünkü lütfen" text="nolur bize soru gönder"/>
+        <Header />
         {children}</body>
     </html>
   );
