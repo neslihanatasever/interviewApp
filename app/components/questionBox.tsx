@@ -39,9 +39,14 @@ export default function QuestionsBox() {
                         <span className='border-b border-t  w-full flex items-center px-5'>cevapcevapcevapcevapcevapcevapcevapcevap</span>
                     </li>
                 </ul>
+                <div className='flex'>
+                <button className="border-b border-t h-12 flex items-center justify-center px-10 w-48 mx-auto">
+                    <span className="transition-all ease-out hover:-translate-y-1 ">Testten Çık</span>
+                </button>
                 <button className="border-b border-t h-12 flex items-center justify-center px-10 w-48 mx-auto">
                     <span className="transition-all ease-out hover:-translate-y-1 font-bold">Devam Et</span>
                 </button>
+                </div>
             </div>
         </div>
     )
