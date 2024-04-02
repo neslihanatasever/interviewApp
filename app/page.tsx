@@ -14,8 +14,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* aşağıdan teknik mülakata girmek istediğiniz alanı seçebilirsiniz */}
-
       <div className="techBox flex gap-5">
         <Link className="w-80 h-40 flex items-center justify-center flex-col gap-5 border-b border-t" href={"/level"}>
           <p className="text-lg font-semibold w-40">JavaScript Mülakat Soruları</p>  
