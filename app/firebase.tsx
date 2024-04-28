@@ -1,8 +1,8 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.INTERVIJA_FIREBASE_KEY,
+  apiKey: "AIzaSyBqsArYcxbZ4KrjJudht1DlArfv-sKsxT8",
   authDomain: "interviewapp-3f8d9.firebaseapp.com",
   databaseURL: "https://interviewapp-3f8d9-default-rtdb.firebaseio.com",
   projectId: "interviewapp-3f8d9",
@@ -13,4 +13,4 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const auth = getAuth(app);
