@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SendQuestion from "./components/sendQuestion";
 import Header from "./components/header";
+import { Navigate } from "react-router-dom";
 
 const inter = Inter({ subsets: ["latin"] });
 

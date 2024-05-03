@@ -1,19 +1,22 @@
 "use client"
 import { useState, FormEvent } from "react";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/app/firebase";
+import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
     const [error, setError] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [password, setPassword] = useState<string>("");
 
+    const navigate = useNavigate()
+
     const handleLogin = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        createUserWithEmailAndPassword(auth, email, password)
+        signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
-                console.log(user);
+                navigate("/")
             })
             .catch((error) => {
                 const errorMessage = error.message;
